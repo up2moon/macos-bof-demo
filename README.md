@@ -50,7 +50,7 @@ python exploit.py
 
 ## 🛠 Reverse Shell Setup (optional)
 
-To prepare a listener for the reverse shell payload, start msfconsole with the following command:
+To prepare a listener for the reverse shell payload, you need to have Metasploit Framework installed. Then, start msfconsole with the following command:
 
 ```
 msfconsole -q -x "use exploit/multi/handler; \
