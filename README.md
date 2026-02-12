@@ -18,7 +18,7 @@ The exploit showcases:
 
 The report is included below for reference.
 
-[📄 Download Report (PDF)](./report.pdf)
+[📄 View Report (PDF)](./report.pdf)
 
 ## ⚠ Disclaimer
 
