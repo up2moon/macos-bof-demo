@@ -1,8 +1,9 @@
 ## 📄 Project Overview
 
-This repository contains the code and materials for the report titled “Exploiting Buffer Overflows on Apple M-Series Macs,” which demonstrates a proof-of-concept exploit on a vulnerable C program running on macOS (AArch64, Apple Silicon).
+This repository contains the code accompanying the report _Exploiting Buffer Overflows on Apple M-Series Macs_.  
+It implements a proof-of-concept exploit on a vulnerable C program running on macOS (AArch64, Apple Silicon).
 
-The exploit showcases:
+The exploit demonstrates:
 
 - Stack-based buffer overflow
 - Format string vulnerability
@@ -16,9 +17,9 @@ The exploit showcases:
 > - AArch64 (ARM64) architecture
 > - ASLR / NX enabled (default security settings)
 
-The report is included below for reference.
+The detailed report is available below.
 
-[📄 View Report (PDF)](./report.pdf)
+[📄 View Report (PDF)](./Exploiting_Buffer_Overflows_on_Apple_M-Series_Macs.pdf)
 
 ## ⚠ Disclaimer
 
@@ -40,7 +41,7 @@ clang -o vulnerable vuln.c
 
 ## 🚀 Exploit Execution
 
-To run the exploit (ensure Python 3 and pwntools are installed):
+To run the exploit, ensure Python 3 and pwntools are installed.
 
 Install pwntools: `pip install pwntools`
 
@@ -50,7 +51,7 @@ python exploit.py
 
 ## 🛠 Reverse Shell Setup (optional)
 
-To prepare a listener for the reverse shell payload, you need to have Metasploit Framework installed. Then, start msfconsole with the following command:
+To set up a listener for the reverse shell payload, ensure that Metasploit Framework is installed. Then, start msfconsole with the following command:
 
 ```
 msfconsole -q -x "use exploit/multi/handler; \
