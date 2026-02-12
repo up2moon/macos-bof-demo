@@ -35,7 +35,7 @@ Always review and understand the payloads and their effects before running them 
 To compile the vulnerable binary (tested with Clang 17.0.0):
 
 ```
-clang -o vulnerable main.c
+clang -o vulnerable vuln.c
 ```
 
 ## 🚀 Exploit Execution
